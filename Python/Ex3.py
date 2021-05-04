@@ -42,6 +42,13 @@ def hai()
 # ii)percentage equal to 50 and less than 80 (Grade B)
 # iii)percentage equal to 80 and more than 80 (Grade A)
 
-
+sub = [None] * 5
+for i in range(6):
+    sub[i] = input("Enter marks of subject")
+    print(i)
+totalmarks = sum(sub)
+average = totalmarks / 5
+print("The average is ", average)
+print("The total marks is", totalmarks)
 
 #5. Write a python program to sort array element in the ascending/descending order
